@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Info Club</title>
+    <link rel="shortcut icon" href="Imagens/favicon.ico" />
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
@@ -22,35 +23,54 @@
         <button type="button" name="login" class="login-button">Login</button>
       </header>
       <div class="container-fluid">
-      <nav>
-        <div class="d-flex">
-  <div class="dropdown mr-1">
-    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-      Menu
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-      <a class="dropdown-item" href="#">Home</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-       </div>
-      </div>
-     </div>
-      </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Info-Club</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Notícias<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="Search">
+            </form>
+          </div>
+        </nav>
 
       <main>
-
+        <br>
+            <p>Notícias</p>
           <div class="imagens">
 
             <div class="row row-cols-1 row-cols-md-3">
 
               <div class="col-lg-3 col-md-6 col-sm-12 mb-2 ">
               <div class="card">
-                <img src="https://www.receitasnestle.com.br/images/default-source/recipes/pudim-de-leite-moc-_c2_baa_13423_alta.tmb-customthum.jpg" alt="">
+                <img src="https://picsum.photos/300/300?random=8" alt="">
 
                 <div class="card-body">
-                  <h5 class="card-title">Pudim de caramelo é o melhor de todos!</h5>
+                  <h5 class="card-title">Sete dicas para fazer seu celular durar mais tempo</h5>
                           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <a href="#" class="btn btn-primary">Acessar</a>
+                          <a href="https://www.techtudo.com.br/listas/2020/11/sete-dicas-para-fazer-seu-celular-durar-mais-tempo.ghtml" class="btn btn-primary">Acessar</a>
                           <p class="card-text">Last updated 3 mins ago</p>
                 </div>
               </div>
@@ -59,9 +79,9 @@
               <div class="card">
                 <img src="https://picsum.photos/300/300?random=2" alt="">
                 <div class="card-body">
-                  <h5 class="card-title">Aplicativo para desenhar no celular: 5 opções para Android e iPhone</h5>
+                  <h5 class="card-title">Conheça as principais funções de uma Smart TV</h5>
                   <p class="card-text">Saiba mais sobre os aplicativos de desenhar e todas as funções disponíveis em cada um deles.</p>
-                  <a href="#" class="btn btn-primary">Acessar</a>
+                  <a href="https://www.techtudo.com.br/noticias/2020/11/conheca-as-principais-funcoes-de-uma-smart-tv.ghtml" class="btn btn-primary">Acessar</a>
                 </div>
               </div>
                  </div>
