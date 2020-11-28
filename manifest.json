@@ -9,7 +9,7 @@
   "background_color":"#3e5aff",
   "theme_color":"#4db8ff",
   "orientation":"portrait",
-  "description":"Site de informações sobre tecnologia do mundo!"
+  "description":"Site de informações sobre tecnologia do mundo!",
   "icons": [
     {  "src": "Imagens/android-icon-36x36.png",
       "sizes": "36x36",
