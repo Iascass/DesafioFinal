@@ -10,6 +10,8 @@
   "theme_color":"#4db8ff",
   "orientation":"portrait",
   "description":"Site de informações sobre tecnologia do mundo!",
+  "related_applications":[],
+  "prefer_related_applications":false,
   "icons": [
     {  "src": "Imagens/android-icon-36x36.png",
       "sizes": "36x36",
@@ -52,7 +54,5 @@
    "type": "image/png",
    "density": "4.0"
   }
- ] ,
-"related_applications":[],
-"prefer_related_applications":false,
+ ]
 }
