@@ -2,3 +2,57 @@
   width: 200px; //largura
   height: 50px;//altura
 }
+.header{
+  background: #33ccff;
+  grid-area:topo;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+.logo img{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.titulo h1{
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.login-button{
+  height: 50px;
+  width: 100px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color:white;
+  background-color: #3e5aff;
+  border: none:
+  -webkit-box-shadow: 0px 5px 13 px 3 px black;
+  box-shadow: 0px 5px 13px 3px black;
+}
+.nav{
+  background: blue;
+  grid-area:menu;
+}
+.main{
+  background: yellow;
+  grid-area: principal;
+}
+.aside{
+  background: green;
+  grid-area: lateral;
+}
+.footer{
+  background: green;
+  grid-area: base;
+  height: 100px;
+}
+.container-fluid{
+  background: #ccffe6;
+}
