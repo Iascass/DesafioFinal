@@ -33,7 +33,6 @@ self.addEventListener('fecth', function(evt){
     caches.match(evt.request).then(function(res){
       return res || fecth(evt.request)
     })
-
   )
 
 })
