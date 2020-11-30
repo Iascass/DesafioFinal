@@ -39,7 +39,7 @@ self.addEventListener('activate', function(evt){
 })
 self.addEventListener('fecth', function(evt){
   console.log('fecth sw');
-  evt.responseWith(
+  evt.respondWith(
     caches.match(evt.request).then(function(res){
       return res || fecth(evt.request)
     })
