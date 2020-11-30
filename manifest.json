@@ -4,7 +4,7 @@
   "name":"Info Club",
   "short_name":"IC",
   "start_url":"https://iascass.github.io/DesafioFinal/",
-  "display":"minimal-ui",
+  "display":"standalone",
   "scope":"/DesafioFinal/",
   "background_color":"#3e5aff",
   "theme_color":"#4db8ff",
