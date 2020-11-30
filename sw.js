@@ -4,7 +4,6 @@ const files = [
   '/DesafioFinal/index.html',
   '/DesafioFinal/style.css',
   '/DesafioFinal/script.js',
-  'https://www.techtudo.com.br/listas/2020/11/sete-dicas-para-fazer-seu-celular-durar-mais-tempo.ghtml',
   'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
   'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
