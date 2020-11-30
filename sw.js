@@ -1,4 +1,4 @@
-const cacheName="info-v1"
+const cacheName="info-v1.1"
 const files = [
   '/DesafioFinal/',
   '/DesafioFinal/index.html',
@@ -26,6 +26,16 @@ self.addEventListener('install', function(evt){
 })
 self.addEventListener('activate', function(evt){
   console.log('active sw');
+
+  evt.waitUntil(
+    caches.keys().then(function(keys) {
+      return Promises.all(
+        keys.filter(key => key !== cacheName)
+        .map(key => caches.delete(key))
+      )
+    })
+  )
+
 })
 self.addEventListener('fecth', function(evt){
   console.log('fecth sw');

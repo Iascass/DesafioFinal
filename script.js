@@ -8,7 +8,7 @@
   }
 }
 
-function shareImage(titulo,texto,url) {
+function shareImage(titulo, texto, url) {
   if (navigator.share) {
     navigator.share({
       title: titutlo,
