@@ -14,13 +14,14 @@ const files = [
 ]
 
 self.addEventListener('install', function(evt){
+  console.log('install sw');
   evt.waitUntil(
     caches.open(cacheName).then(function(cache){
       console.log('colocando arquivos no cache')
       cache.addAll(files)
     })
   )
-  console.log('install sw');
+
 
 })
 self.addEventListener('activate', function(evt){
@@ -28,4 +29,5 @@ self.addEventListener('activate', function(evt){
 })
 self.addEventListener('fecth', function(evt){
   console.log('fecth sw');
+  caches.match(evt.request)
 })
