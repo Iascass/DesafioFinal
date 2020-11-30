@@ -1,9 +1,9 @@
 .logo{
   width: 200px; //largura
-  height: 50px;//altura
+  height: 50px; //altura
 }
 .header{
-  background: #33ccff;
+  background: #ffffff;
   grid-area:topo;
   height: 120px;
 
@@ -19,11 +19,14 @@
   width: 130px;
   height: 130px;
 }
+.titulo{
+  align-items: right;
+}
 .titulo h1{
   font-size: 2.5em;
   font-family: sans-serif;
   font-weight: bolder;
-  color: white;
+  color: #333333;
 }
 .login-button{
   height: 50px;
