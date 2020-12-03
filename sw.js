@@ -1,4 +1,4 @@
-const cacheName="info-v1.2"
+const cacheName="info-v1.3"
 const files = [
   '/DesafioFinal/',
   '/DesafioFinal/index.html',
